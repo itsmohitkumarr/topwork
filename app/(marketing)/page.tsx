@@ -23,7 +23,7 @@ const MarketingPage = () => {
           headingFont.className
         )}
       >
-        <FullLogo />
+        <Image src="/logo.png" alt="Logo" height={350} width={500} />;
         <div className="mb-4 flex items-center border shadow-sm p-4 bg-amber-200 text-amber-700 rounded-full uppercase mt-4">
           <Medal className="h-6 w-6 mr-2" />
           No 1 task management
